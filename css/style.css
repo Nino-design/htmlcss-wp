@@ -1,0 +1,132 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*common*/
+
+html {
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;  
+} 
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+/*header*/
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    width: auto;
+    height: 60px;
+    padding-right: 1em;
+    border-right: 1px solid lightgray;
+}
+
+.header-nav li{
+    padding-right: .5em;
+    display: inline-block;
+    color: grey;
+}
+
+.header-nav a {
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+.with-layover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    border-radius: 2em;
+    overflow: hidden;
+    background-image: url(../img/dolomites.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 15px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 8em;
+    left: 1em;
+    width: 60%;
+    color: white;
+}
+
+/*main*/
+
+.content-top{
+    height: 40px;
+    width: 100%;
+    background-color: #0287fe;
+}
+
+.content{
+    width: 100%;
+    margin-top: 15px;
+    background-color: #0287fe;
+}
+
+.content-side{
+    width: 20%;
+    height: 280px;
+    margin: 15px 0;
+    background-color: #abcfe7;
+    float: left;
+    
+}
+
+.content-center{
+    width: calc(60% - 30px);
+    height: 280px;
+    margin: 15px;
+    background-color: #abcfe7;
+    float: left;
+}
+
+/*footer*/
+
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color: #8403fd;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
