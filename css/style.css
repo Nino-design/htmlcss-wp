@@ -37,13 +37,13 @@ img {
     width: auto;
     height: 60px;
     padding-right: 1em;
+    margin-bottom: 4em;
     border-right: 1px solid lightgray;
 }
 
 .header-nav li{
     padding-right: .5em;
     display: inline-block;
-    color: grey;
 }
 
 .header-nav a {
@@ -51,6 +51,10 @@ img {
     text-decoration: none;
     text-transform: uppercase;
     color: inherit;
+}
+
+.color{
+    color: lightgray;
 }
 
 .with-layover::before {
@@ -69,11 +73,11 @@ img {
     position: relative;
     border-radius: 2em;
     overflow: hidden;
-    background-image: url(../img/dolomites.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 15px;
 }
+
 
 .banner img {
     width: 100%;
@@ -84,7 +88,7 @@ img {
 .banner-text {
     position: absolute;
     bottom: 8em;
-    left: 1em;
+    left: 4em;
     width: 60%;
     color: white;
 }
@@ -94,16 +98,22 @@ img {
 .content-top{
     height: 40px;
     width: 100%;
-    background-color: #0287fe;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+}
+
+.content-top h1{
+    font-size: 2.5em;
+    font-weight: bolder;
 }
 
 .content{
     width: 100%;
     margin-top: 15px;
-    background-color: #0287fe;
 }
 
 .content-side{
+    position: relative;
     width: 20%;
     height: 280px;
     margin: 15px 0;
@@ -112,12 +122,25 @@ img {
     
 }
 
+.content-side img {
+    width: 100%;
+    height: 150px;
+    object-fit:initial;
+}
+
 .content-center{
     width: calc(60% - 30px);
+    position: relative;
     height: 280px;
     margin: 15px;
     background-color: #abcfe7;
     float: left;
+}
+
+.content-center img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
 }
 
 /*footer*/
@@ -125,8 +148,12 @@ img {
 .footer{
     width: 100%;
     height: 30px;
-    background-color: #8403fd;
+    text-align: center;
     margin-top: 7px;
     margin-bottom: 15px;
 }
 
+
+.heart{
+    color: red;
+}
