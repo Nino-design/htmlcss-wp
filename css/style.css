@@ -67,6 +67,15 @@ img {
     background-color: rgba(0, 0, 0, .3);
 }
 
+.with-layover-two::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
 .banner{
     width: 100%;
     height: 400px;
@@ -117,7 +126,6 @@ img {
     width: 20%;
     height: 280px;
     margin: 15px 0;
-    background-color: #abcfe7;
     float: left;
     
 }
@@ -133,7 +141,6 @@ img {
     position: relative;
     height: 280px;
     margin: 15px;
-    background-color: #abcfe7;
     float: left;
 }
 
